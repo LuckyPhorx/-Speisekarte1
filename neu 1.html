@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speisekarte</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    header {
+      background-color: #8B0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .menu {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #8B0000;
+      padding-bottom: 5px;
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .item:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Restaurant Zur Goldenen Gabel</h1>
+    <p>Unsere Speisekarte</p>
+  </header>
+
+  <div class="menu">
+    <h2>Vorspeisen</h2>
+    <div class="item">
+      <span>Bruschetta</span><span>4,50 €</span>
+    </div>
+    <div class="item">
+      <span>Gemischter Salat</span><span>5,90 €</span>
+    </div>
+
+    <h2>Hauptgerichte</h2>
+    <div class="item">
+      <span>Schnitzel Wiener Art mit Pommes</span><span>11,90 €</span>
+    </div>
+    <div class="item">
+      <span>Spaghetti Bolognese</span><span>9,80 €</span>
+    </div>
+    <div class="item">
+      <span>Vegetarisches Curry</span><span>10,50 €</span>
+    </div>
+
+    <h2>Desserts</h2>
+    <div class="item">
+      <span>Tiramisu</span><span>4,90 €</span>
+    </div>
+    <div class="item">
+      <span>Apfelstrudel mit Vanillesoße</span><span>5,20 €</span>
+    </div>
+
+    <h2>Getränke</h2>
+    <div class="item">
+      <span>Wasser (0,5l)</span><span>2,00 €</span>
+    </div>
+    <div class="item">
+      <span>Cola/Fanta/Sprite (0,5l)</span><span>2,50 €</span>
+    </div>
+    <div class="item">
+      <span>Hauswein (0,2l)</span><span>3,80 €</span>
+    </div>
+  </div>
+
+</body>
+</html>
